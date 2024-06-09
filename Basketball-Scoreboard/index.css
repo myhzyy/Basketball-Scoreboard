@@ -1,0 +1,83 @@
+@font-face{
+    font-family: myFont;
+    src:url(timer.ttf);
+}
+
+
+
+body {
+    padding: 0;
+    margin: 0;
+    /* font-family: myFont; */
+}
+
+
+.home-button {
+    border: 2px solid red;
+    width: 50%;
+    height: 500px;
+    background-color: #1B244A;
+    ;
+    
+}
+
+.innerclass {
+    /* border: 1px solid white; */
+}
+
+
+.Score-button {
+    /* border: 2px solid greenyellow; */
+    background-color: black;
+    height: 100px;
+    align-content: center;
+    margin: 0;
+}
+
+.inner-buttons {
+    /* border: 2px solid green; */
+    width: 150px;
+    height: 100%;
+    text-align: center;
+    align-content: center;
+    margin: 0 auto;
+}
+
+.pointsButtons {
+    display: flex;
+    justify-content: space-between;
+    /* border: 5px solid orange; */
+}
+
+.add-points {
+    margin-top: 17px;
+    height: 30px;
+    width: 45px;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+    font-family: myFont;
+    background-color: #1B244A;
+    color: #EEEEEE;
+
+    /* flex: 1; */
+
+}
+
+/* ========= 
+Typography 
+======== */
+
+
+h1 {
+    font-size: 40px;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #EEEEEE;
+}
+
+.Score-button {
+    color: #F94F6D;
+    font-size: 70px;
+    font-family: myFont
+
+}
